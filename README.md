@@ -34,3 +34,9 @@ and then run the `index.js` file with
 ```
 node index.js
 ```
+
+OR
+
+```
+npm run export
+```
