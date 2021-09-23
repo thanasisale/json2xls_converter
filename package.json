@@ -1,0 +1,14 @@
+{
+  "name": "jsn2xls",
+  "version": "1.0.0",
+  "description": "Convert Json file to xlsx",
+  "main": "index.js",
+  "scripts": {
+    "export": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json2xls": "^0.1.2"
+  }
+}
