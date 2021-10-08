@@ -1,7 +1,7 @@
 // Imports
 var json2xls = require('json2xls');
 var fs = require('fs');
-var data = require('./data.js')
+var data = require('./src/data')
 
 // Trim whitespace, line breaks etc
 data = data.trim(data);
@@ -13,4 +13,4 @@ data = (JSON.parse(data));
 var xls = json2xls(data,{});
 
 // Create the xls output file
-fs.writeFileSync('output.xlsx', xls, 'binary');
+fs.writeFileSync('./out/output.xlsx', xls, 'binary');
